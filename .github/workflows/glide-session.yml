@@ -2,6 +2,8 @@ name: Glide Display Session
 
 on:
   workflow_dispatch:
+  push:
+  branches: [ "main"]
     inputs:
       minecraft_version:
         description: Minecraft version
